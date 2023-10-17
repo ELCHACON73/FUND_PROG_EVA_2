@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 06:51:13 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjMtMTAtMDk7MDY6NDE6MTkgcC4gbS47MjgzMQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMTAxOzIwMjMtMTAtMDk7MDY6NTE6MTMgcC4gbS47MTsyOTM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce el n&#250;mero a evaluar&quot;" newline="True"/>
+            <input variable="valor"/>
+            <declare name="residuo" type="Integer" array="False" size=""/>
+            <assign variable="residuo" expression="valor%2"/>
+            <if expression="residuo = 0">
+                <then>
+                    <output expression="&quot;EL N&#218;MERO ES PAR&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;EL VALOR ES IMPAR&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
