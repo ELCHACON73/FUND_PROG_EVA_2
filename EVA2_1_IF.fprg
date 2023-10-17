@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-02 07:35:00 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMTAtMDI7MDc6MTQ6MzggcC4gbS47MjgyOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMTAtMDI7MDc6MzU6MDAgcC4gbS47MzsyOTMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Califa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Introduce la calificaci&#243;n&quot;" newline="True"/>
+            <input variable="Califa"/>
+            <if expression="Califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Felicidades!!, aprobaste la materia&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NA - No pasaste la materia&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;FIN DEL PROGRAMA&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
